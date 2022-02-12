@@ -4,13 +4,10 @@
 
 In this notebook, we use machine learning to optimise the parameters of an optical circuit towards generating high quality quantum resource states (in particular, we employ the global optimisation algorithm *basinhopping*). These resource states are needed to perform entanglement purification in a linear-optical system, as discussed in our paper "Achieving the ultimate end-to-end rate of a lossy quantum communication network" [1]. We have separated this notebook into four sections: 
 
-[Section 1](#1.-Libraries): All the necessary libraries are imported. 
-
-[Section 2](#2.-Circuit-Simulation): The functions that allows us to simulate an optical circuit are prepared, and then verified to check that they work.  
-
-[Section 3](#3.-Circuit-Optimisation): The *basinhopping* algorithm is prepared, and an example optimisation is run to illustrate to the user how it works.  
-
-[Section 4](#4.-Load-Previously-Optimised-Parameters): The best optimised parameter sets that we could find were saved; these parameter sets are loaded and detailed in this section.  
+Section 1: All the necessary libraries are imported.  
+Section 2: The functions that allows us to simulate an optical circuit are prepared, and then verified to check that they work.  
+Section 3: The *basinhopping* algorithm is prepared, and an example optimisation is run to illustrate to the user how it works.  
+Section 4: The best optimised parameter sets that we could find were saved; these parameter sets are loaded and detailed in this section.  
 
 Finally, we acknowledge the papers "Production of photonic universal quantum gates enhanced by machine learning" [[2](https://doi.org/10.1103/PhysRevA.100.012326)] and "Progress towards practical qubit computation using approximate Gottesman-Kitaev-Preskill codes" [[3](https://doi.org/10.1103/PhysRevA.101.032315)], whose code we have used and modified here for our own purposes. We also acknowledge the libraries *strawberryfields* [[4](https://doi.org/10.22331/q-2019-03-11-129)] and *thewarlus* [[5](https://doi.org/10.21105/joss.01705)], which we used to perform the quantum simulation. 
 
