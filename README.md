@@ -1,4 +1,4 @@
-# Optimising Optical Circuits for Quantum State Generation
+# Optimising Optical Circuits for State Generation
 
 We use machine learning to optimise the parameters of an optical circuit towards generating high quality quantum resource states (in particular, we employ the global optimisation algorithm *basinhopping*). These resource states are needed to perform entanglement purification in a linear-optical system, as discussed in our paper "Achieving the ultimate end-to-end rate of a lossy quantum communication network" [1]. The main notebook with key code and details are given in [statefindercode.ipynb](https://github.com/JGuanzon/state-finder/blob/main/statefindercode.ipynb). Saved parameter sets that we have found to be optimal are in the statefinderdata folder.
 
